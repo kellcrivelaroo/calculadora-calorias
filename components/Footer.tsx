@@ -7,7 +7,7 @@ export function Footer() {
       ></div>
       <footer className="flex flex-col justify-end grow items-center text-center text-slate-600 pb-2">
         <a
-          href="http://github.com/kellcrivelaro"
+          href="https://github.com/kellcrivelaroo"
           target="_blank"
           rel="author noreferrer"
           className="hover:text-sky-600"
@@ -18,3 +18,5 @@ export function Footer() {
     </div>
   );
 }
+
+Footer.displayName = 'Footer';

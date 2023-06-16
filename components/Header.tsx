@@ -39,7 +39,7 @@ export const Header = forwardRef((props, ref) => {
         <nav className="flex h-8 justify-between items-center max-w-5xl lg:m-auto mx-12">
           <a
             className="flex items-center hover:text-sky-600 pl-0 md:pl-3"
-            href="http://github.com/kellcrivelaro"
+            href="https://github.com/kellcrivelaroo"
             target={"_blank"}
             rel={"author noreferrer"}
           >
@@ -75,3 +75,5 @@ export const Header = forwardRef((props, ref) => {
     </>
   );
 });
+
+Header.displayName = 'Header';
